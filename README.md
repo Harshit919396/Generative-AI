@@ -1,13 +1,13 @@
 # Adaptable Deep Learning Model for Artistic Style Transfer
-Overview
+# Overview
 This project focuses on the development of an adaptable deep learning model for artistic style transfer using PyTorch. It enables the blending of the artistic style from one image onto the content of another while offering flexibility and customization in the style transfer process.
 
-Features
+# Features
 Adaptable Style Transfer: Incorporates an advanced algorithm to adapt the style of one image to the content of another.
 Color-Aware Transfers: Special feature to consider color palettes and masks for more nuanced transfers.
 Interactive Color Matching: Allows users to define color correlations between style and content images for personalized results.
 Model Customization: Supports modifications to the underlying neural network model.
-Requirements
+# Requirements
 Python 3.x
 PyTorch
 NumPy
@@ -15,7 +15,6 @@ Matplotlib
 PIL (Python Imaging Library)
 Installation
 Install the necessary Python packages using:
-
 bash
 Copy code
 pip install torch numpy matplotlib pillow
